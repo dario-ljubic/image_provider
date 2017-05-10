@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8)
-project(image_transport_tutorial)
+project(image_provider)
 
 find_package(catkin REQUIRED COMPONENTS cv_bridge image_transport message_generation sensor_msgs)
 
