@@ -1,6 +1,6 @@
 #include <pluginlib/class_list_macros.h>
-#include <image_transport_tutorial/resized_publisher.h>
-#include <image_transport_tutorial/resized_subscriber.h>
+#include "../include/resized_publisher.h"
+#include "../include/resized_subscriber.h"
 
 PLUGINLIB_REGISTER_CLASS(resized_pub, ResizedPublisher, image_transport::PublisherPlugin)
 

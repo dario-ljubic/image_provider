@@ -1,8 +1,8 @@
-#include <image_transport_tutorial/resized_subscriber.h>
+#include <../include/resized_subscriber.h>
 #include <cv_bridge/cv_bridge.h>
 #include <opencv2/imgproc/imgproc.hpp>
 
-void ResizedSubscriber::internalCallback(const image_transport_tutorial::ResizedImage::ConstPtr& msg,
+void ResizedSubscriber::internalCallback(const image_provider::ResizedImage::ConstPtr& msg,
                                          const Callback& user_cb)
 {
   // This is only for optimization, not to copy the image
